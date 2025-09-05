@@ -16,5 +16,6 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) e o [MongoDB Atlas](https:
 
 ### 2. Clonar o Repositório
 ```bash
-git clone [https://github.com/tassianasc/APINodeMongo.git](https://github.com/tassianasc/APINodeMongo.git)
+git clone https://github.com/xmateuschagas/APINodeMongo.git
+
 cd APINodeMongo
