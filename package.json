@@ -1,22 +1,31 @@
 {
-  "name": "aplicacaonodemongodb",
+  "name": "apinodemongo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST de tarefas com Node.js, Express, MongoDB, autenticação JWT e validação com Zod",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tassianasc/aplicacaoNodeMongoDb.git"
+    "url": "git+https://github.com/xmateuschagas/APINodeMongo.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "zod",
+    "rest-api"
+  ],
+  "author": "Mateus Chagas (https://github.com/xmateuschagas)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tassianasc/aplicacaoNodeMongoDb/issues"
+    "url": "https://github.com/xmateuschagas/APINodeMongo/issues"
   },
-  "homepage": "https://github.com/tassianasc/aplicacaoNodeMongoDb#readme",
+  "homepage": "https://github.com/xmateuschagas/APINodeMongo#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
